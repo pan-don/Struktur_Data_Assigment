@@ -16,7 +16,6 @@ float kelvin(float celcius){
     return celcius + 273.15; // mengembalikan hasil konversi
 }
 
-
 int main(){
     char pilih;
     float celcius;

@@ -29,7 +29,6 @@ struct hewan_b{
     string laut;
 };
 
-
 /*
 Class dan struct yang bersifat public, anggotanya dapat 
 diakses di fungsi yang lain
