@@ -3,7 +3,7 @@
 
 ## Dasar Teori
 
-tipe data adalah klasifikasi nilai suatu variabel yang membantu operasi komputer untuk mengenali nilai data tanpa menghasilkan error. tipe data dapat memudahkan komputer dalam menerjemahkan informasi dan meminimalkan kesalahan karena pada dasarnya komputer hanya memahami bahasa biner(0 dan 1). dalam bahasa pemrograman, tipe data di klasifikasikan dalam berbagai jenis diantaranya:
+Tipe data adalah klasifikasi nilai suatu variabel yang membantu operasi komputer untuk mengenali nilai data tanpa menghasilkan error. tipe data dapat memudahkan komputer dalam menerjemahkan informasi dan meminimalkan kesalahan karena pada dasarnya komputer hanya memahami bahasa biner(0 dan 1). Dalam bahasa pemrograman, tipe data di klasifikasikan dalam berbagai jenis diantaranya:
  - Tipe data primitif
  - Tipe data abstrak
  - Tipe data koleksi
@@ -18,13 +18,13 @@ tipe data primitif adalah tipe data dasar yang tersedia dalam  pemrograman kompu
 
 ### 2. Tipe Data Abstrak
 
-tipe data abstrak adalah tipe data yang didefinisikan oleh pengguna itu sendiri. pada umumnya tipe data abstrak tidak didefinisikan secara langsung melainkan hanya melalui operasi matematis tertentu. berikut contoh tipe data abstrak:
- 1. Class: berfungsi untuk mendefinisikan tipe data baru dengan menyatukan data(attribut) dan metode terkait. class biasanya digunakan untuk membuat objek dalam OOP. pada C++, class memiliki akses default public yang berarti anggota pada class dapat digunakan pada fungsi lain.
- 2. Struct: tipe data yang digunakan untuk mengelompokkan beberapa tipe data yang berbeda ke dalam satu unit.ada sedikit perbedaan antara struct dan class. akses default struct adalah privat, artinya anggota dari struct hanya bisa digunakan di dalam struct itu sendiri. 
+Tipe data abstrak adalah tipe data yang didefinisikan oleh pengguna itu sendiri. Pada umumnya tipe data abstrak tidak didefinisikan secara langsung melainkan hanya melalui operasi matematis tertentu. Berikut contoh tipe data abstrak:
+ 1. Class: berfungsi untuk mendefinisikan tipe data baru dengan menyatukan data(attribut) dan metode terkait. Class biasanya digunakan untuk membuat objek dalam OOP. Pada C++, class memiliki akses default public yang berarti anggota pada class dapat digunakan pada fungsi lain.
+ 2. Struct: tipe data yang digunakan untuk mengelompokkan beberapa tipe data yang berbeda ke dalam satu unit.ada sedikit perbedaan antara struct dan class. Akses default struct adalah privat, artinya anggota dari struct hanya bisa digunakan di dalam struct itu sendiri. 
 
 ### 3. Tipe Data Koleksi
 
-tipe data koleksi adalah  tipe data yang digunakan untuk mengelompokkan dan menyimpan beberapa elemen data dalam satu unit. Tipe data koleksi memungkinkan untuk menyimpan dan mengelola sekumpulan data dengan cara yang terstruktur dan mudah diakses. beberapa yang termasuk tipe data koleksi yang sering digunakan sebagai berikut:
+Tipe data koleksi adalah  tipe data yang digunakan untuk mengelompokkan dan menyimpan beberapa elemen data dalam satu unit. Tipe data koleksi memungkinkan untuk menyimpan dan mengelola sekumpulan data dengan cara yang terstruktur dan mudah diakses. Beberapa yang termasuk tipe data koleksi yang sering digunakan sebagai berikut:
  1. Array adalah tipe data koleksi yang menyimpan sejumlah elemen data yang serupa dalam satu unit. Elemen-elemen dalam array diakses menggunakan indeks numerik.
  2. Map adalah tipe data koleksi yang memetakan kunci ke nilai. Map memungkinkan untuk mengakses nilai berdasarkan kunci yang terkait.
  3. vector adalah tipe data koleksi yang dapat menyimpan elemen-elemen dalam urutan tertentu.  Vector memiliki kemampuan untuk menyesuaikan ukurannya secara otomatis saat elemen-elemen baru ditambahkan atau dihapus.
@@ -75,7 +75,7 @@ int main(){
 ```
 Kode diatas merupakan progam kalkulator sederhana. Didalam kalkulator tesedia 4 macam operasi seperti tambah(+), kurang(-), kali(*), dan bagi(/). Progam dibuat menggunakan satu fungsi 'main'. Fungsi berisi dimulai dengan pembuatan variabel 'op' bertipe data karakter dan diisi dengan pilihan operator(+, -, *, /) serta variabel 'num_1' dan 'num_1' bertipe data float yang diisi bilangan yang akan dioperasikan.
 
-progam dilanjutkan dengan perintah 'cin' yaitu perintah untuk memasukan data ke variabel 'op', 'num_1', dan 'num_2'. setelah itu progam diarahkan ke switch case. switch case merupakan perintah untuk pengkondisian dimana pengkondisian ini ditentukan oleh data yang dimasukan ke variabel 'op'. Jika variabel 'op' berisi operasi(+, -, *, /) yang nantinya akan diarahkan ke rumus dan akan menampilkan hasil dari operasi tersebut. Tetapi jika variabel 'op' berisi selain dari operasi maka akan menampilkan "error! operator is not correct". progam akan berhenti setelah melewati switch case.
+Progam dilanjutkan dengan perintah 'cin' yaitu perintah untuk memasukan data ke variabel 'op', 'num_1', dan 'num_2'. setelah itu progam diarahkan ke switch case. Swicth case merupakan perintah untuk pengkondisian dimana pengkondisian ini ditentukan oleh data yang dimasukan ke variabel 'op'. Jika variabel 'op' berisi operasi(+, -, *, /) yang nantinya akan diarahkan ke rumus dan akan menampilkan hasil dari operasi tersebut. Tetapi jika variabel 'op' berisi selain dari operasi maka akan menampilkan "error! operator is not correct". progam akan berhenti setelah melewati switch case.
 
 ### 2. Tipe Data Abstrak
 
@@ -115,9 +115,9 @@ int main(){
     return 0;
 }
 ```
-code progam diatas merupakan code yang berisi mengenai struct. Struct diawali dengan mendeklarasikan anggota dengan nama 'name', 'address', dan 'age'. 'name' dan 'addres' memiliki tipe data string dan 'age' memiliki tipe data integer. anggota tersebut berada disebuah struct yang dinamai 'mahasiswa'. konten yang berada didalam struct dapat dipanggil atau digunakan pada fungsi lain.
+Code progam diatas merupakan code yang berisi mengenai struct. Struct diawali dengan mendeklarasikan anggota dengan nama 'name', 'address', dan 'age'. 'name' dan 'addres' memiliki tipe data string dan 'age' memiliki tipe data integer. Anggota tersebut berada disebuah struct yang dinamai 'mahasiswa'. Konten yang berada didalam struct dapat dipanggil atau digunakan pada fungsi lain.
 
-fungsi main diawali dengan mendeklarasikan dua variabel yang bertipe 'mahasiswa' dengan nama 'mhs1' dan 'mhs2'. Kemudian mengisi nilai ke dalam struktur 'mhs1' dan 'mhs2' dengan menguunakan 'name', 'address', dan 'age'. setelah mengisi nilai, menampilkan data yang berada pada variabel 'mhs1' dan 'mhs2' menggunakan perintah 'cout'.
+Fungsi main diawali dengan mendeklarasikan dua variabel yang bertipe 'mahasiswa' dengan nama 'mhs1' dan 'mhs2'. Kemudian mengisi nilai ke dalam struktur 'mhs1' dan 'mhs2' dengan menguunakan 'name', 'address', dan 'age'. Setelah mengisi nilai, menampilkan data yang berada pada variabel 'mhs1' dan 'mhs2' menggunakan perintah 'cout'.
 
 ### 3. Tipe Data Koleksi
 
@@ -144,7 +144,7 @@ int main(){
     return 0;
 }
 ```
-code progam diatas berisi mengenai array. pada bagian pertama diawali dengan pendeklarasian array dengan nama 'nilai' yang berisi 5 elemen yang bertipe data integer. 'nilai' diisi dengan angka 23, 50, 34, 78, 90 sesuai dengan urutan index. bagian kedua merupakan cara pemanggilan data array. elemen pada array dapat dipanggil menggunakan index. data 'nilai' dicetak menggunakan perintah 'cout' dengan cara menulis nama array lalu ditambahkan dengan kurung siku yang didalamnya berisi index data yang ingin dicari.      
+Code progam diatas berisi mengenai array. pada bagian pertama diawali dengan pendeklarasian array dengan nama 'nilai' yang berisi 5 elemen yang bertipe data integer. 'nilai' diisi dengan angka 23, 50, 34, 78, 90 sesuai dengan urutan index. Bagian kedua merupakan cara pemanggilan data array. Elemen pada array dapat dipanggil menggunakan index. Data 'nilai' dicetak menggunakan perintah 'cout' dengan cara menulis nama array lalu ditambahkan dengan kurung siku yang didalamnya berisi index data yang ingin dicari.      
 
 ## Unguided 
 
@@ -207,13 +207,13 @@ int main(){
 #### Output:
 ![Screenshot (70)](https://github.com/pan-don/Struktur_Data_Assigment/assets/157208689/2febdd3f-b5d1-44e0-8b8b-2cd0a4bfd631)
 
-code diatas merupakan progam mengenai konversi suhu celcius. dengan progam ini memungkinkan kita mengubah nilai suhu dari satuan celcius ke satuan yang lain seperti farenheit, kelvin, dan reamur. progam ini terdiri dari 4 fungsi dimana 1 fungsi utama sebagai tempat untuk memasukan data dan 3 fungsi lainnya sebagai tempat untuk mencari hasil dari nilai konversi yang telah dimasukan. 
+Code diatas merupakan progam mengenai konversi suhu celcius. Dengan progam ini memungkinkan kita mengubah nilai suhu dari satuan celcius ke satuan yang lain seperti farenheit, kelvin, dan reamur. Progam ini terdiri dari 4 fungsi dimana 1 fungsi utama sebagai tempat untuk memasukan data dan 3 fungsi lainnya sebagai tempat untuk mencari hasil dari nilai konversi yang telah dimasukan. 
 
-progam diawali dengan deklarasi variabel 'pilih' yang bertipe data karakter dan 'celcius' yang bertipe data float. variabel 'pilih' berguna sebagai variabel input untuk memilih satuan konversi yang dicari. variabel 'celcius' berfungsi sebagai variabel input yang memuat nilai suhu celcius yang akan dikonversi. progam dilanjutkan dengan pengimputan variabel 'pilih' dan 'celcius' menggunakan perintah cin. variabel 'pilih' melewati proses percabangan(switch case), jika variabel yang berisi angka 1 maka akan diarahkan ke konversi farenheit, 2 ke kelvin, dan 3 ke reamur yang nantimya akan diarahkan ke fungsi konversi yang dipilih. akan tetapi jika variabel pilih berisi selain dari angka 1-3 maka progam akan menampilkan "Masukan pilihan yang tersedia!" menggunakan perintah cout.
+Progam diawali dengan deklarasi variabel 'pilih' yang bertipe data karakter dan 'celcius' yang bertipe data float. variabel 'pilih' berguna sebagai variabel input untuk memilih satuan konversi yang dicari. Variabel 'celcius' berfungsi sebagai variabel input yang memuat nilai suhu celcius yang akan dikonversi. Progam dilanjutkan dengan pengimputan variabel 'pilih' dan 'celcius' menggunakan perintah cin. Variabel 'pilih' melewati proses percabangan(switch case), jika variabel yang berisi angka 1 maka akan diarahkan ke konversi farenheit, 2 ke kelvin, dan 3 ke reamur yang nantimya akan diarahkan ke fungsi konversi yang dipilih. Akan tetapi jika variabel pilih berisi selain dari angka 1-3 maka progam akan menampilkan "Masukan pilihan yang tersedia!" menggunakan perintah cout.
 
 #### Kesimpulan:
 
-Tipe data primitive adalah tipe data yang hanya mampu menyimpan satu nilai pada setiap satu variabel. tipe data ini merupakan tipe data dasar yang sering digunakan program [1]. tipe data primitif juga biasanya memiliki representasi yang langsung didukung oleh hardware komputer, sehingga operasi menggunakan tipe data primitif seringkali lebih cepat dan efisien daripada tipe data yang lebih kompleks. Operasi matematika dan logika sederhana seringkali dapat diterapkan langsung pada tipe data primitif, seperti penjumlahan, pengurangan, perkalian, dan perbandingan. dapat dilihat pada progam diatas melakukan operasi rumus matematis menggunakan tipe data primitif dan proses tersebut dapat dijalankan secara langsung yang nantinya akan meningkatkan efisiensi waktu.
+Tipe data primitive adalah tipe data yang hanya mampu menyimpan satu nilai pada setiap satu variabel. Tipe data ini merupakan tipe data dasar yang sering digunakan program [1]. Tipe data primitif juga biasanya memiliki representasi yang langsung didukung oleh hardware komputer, sehingga operasi menggunakan tipe data primitif seringkali lebih cepat dan efisien daripada tipe data yang lebih kompleks. Operasi matematika dan logika sederhana seringkali dapat diterapkan langsung pada tipe data primitif, seperti penjumlahan, pengurangan, perkalian, dan perbandingan. Dapat dilihat pada progam diatas melakukan operasi rumus matematis menggunakan tipe data primitif dan proses tersebut dapat dijalankan secara langsung yang nantinya akan meningkatkan efisiensi waktu.
 
 ### 2. Jelaskan fungsi dari class dan struct secara detail dan berikan contoh programnya
 
@@ -276,9 +276,9 @@ int main(){
 ### Output:
 ![Screenshot (71)](https://github.com/pan-don/Struktur_Data_Assigment/assets/157208689/d24c3d46-a7e6-4862-afbc-efcc8de395ff)
 
-code ini menjelaskan mengenai class dan struct. di dalam kode ini terdapat 2 class dan 2 struct yang mana di masing-masing tipe data abstrak ini ada yang menggunakan akses default sesuai warisan dan ada yang telah diubah. class memiliki akses default private sehingga hanya bisa diakses secara internal. sedangkan struct memiliki akses default public yang berarti class tersebut bisa diakses secara eksternal. akan tetapi akses dafault tersebut dapat dirubah menggunakan perintah 'public:' atau 'private:'.
+Code ini menjelaskan mengenai class dan struct. di dalam kode ini terdapat 2 class dan 2 struct yang mana di masing-masing tipe data abstrak ini ada yang menggunakan akses default sesuai warisan dan ada yang telah diubah. Class memiliki akses default private sehingga hanya bisa diakses secara internal. Sedangkan struct memiliki akses default public yang berarti class tersebut bisa diakses secara eksternal. Akan tetapi akses dafault tersebut dapat dirubah menggunakan perintah 'public:' atau 'private:'.
 
-progam diawali dengan deklarasi anggota pada dua buah tipe data abstrak class dan struct. pada bagian akhir progam menggunakan fungsi main mendeklarasikan variabel 'buah1', 'buah2', 'hewan1', dan 'hewan2' menggunakan tipe data abstrak 'buah_b' dan 'hewan_a' yang merupakan class dan struct yang memiliki akses default public. selanjutnya mengisi nilai kedalam variabel tersebut yang nantinya akan dicetak menggunakan perintah cout.
+Progam diawali dengan deklarasi anggota pada dua buah tipe data abstrak class dan struct. Pada bagian akhir progam menggunakan fungsi main mendeklarasikan variabel 'buah1', 'buah2', 'hewan1', dan 'hewan2' menggunakan tipe data abstrak 'buah_b' dan 'hewan_a' yang merupakan class dan struct yang memiliki akses default public. Selanjutnya mengisi nilai kedalam variabel tersebut yang nantinya akan dicetak menggunakan perintah cout.
 
 ### 3. Buat dan jelaskan program menggunakan fungsi map dan jelaskan perbedaan dari array dengan map.
 
@@ -287,7 +287,7 @@ progam diawali dengan deklarasi anggota pada dua buah tipe data abstrak class da
 
 #### Perbedaan array dan map 
 
-array adalah kumpulan elemen dengan tipe data sama sedangkan map adalah struktur hash dari pasangan kunci dan nilai serta bisa menggunakan berbagai tipe data[2]. elemen pada array diakses menggunakan index bilangan bulat yang dimulai dari 0 sedangkan elemen map diakses menggunakan kunci dari setiap elemen. array dapat berupa 1D, 2D, atau multidimensi sedangkan map berupa multimap, multimap tidak terurut, dan lainnya.
+Array adalah kumpulan elemen dengan tipe data sama sedangkan map adalah struktur hash dari pasangan kunci dan nilai serta bisa menggunakan berbagai tipe data[2]. Elemen pada array diakses menggunakan index bilangan bulat yang dimulai dari 0 sedangkan elemen map diakses menggunakan kunci dari setiap Elemen. array dapat berupa 1D, 2D, atau multidimensi sedangkan map berupa multimap, multimap tidak terurut, dan lainnya.
 
 ```C++
 #include <iostream>
@@ -319,15 +319,15 @@ int main(){
 #### Output:
 ![Screenshot (72)](https://github.com/pan-don/Struktur_Data_Assigment/assets/157208689/8ad949bd-179a-43de-9470-76be4d00623e)
 
-kode diatas merupakan perbandingan penggunaan array dan map. pada penggunaan array harus dedifinisikan terlebih dahulu tipe data, nama array, dan panjang array. pada code diatas deklarasi array menggunakan nama 'nilai' dengan tipe data integer dan memiliki panjang 3 index. pengisian nilai ke array dimulai dari mendefinisikan letak data yang akan dimasukan ke dalam array menggunakan index. suatu data array dapat dipanggil dengan mencantumkan nama array serta index yang akan dituju menggunakan perintah cout.
+Kode diatas merupakan perbandingan penggunaan array dan map. pada penggunaan array harus dedifinisikan terlebih dahulu tipe data, nama array, dan panjang array. Pada code diatas deklarasi array menggunakan nama 'nilai' dengan tipe data integer dan memiliki panjang 3 index. Pengisian nilai ke array dimulai dari mendefinisikan letak data yang akan dimasukan ke dalam array menggunakan index. Suatu data array dapat dipanggil dengan mencantumkan nama array serta index yang akan dituju menggunakan perintah cout.
 
-kode yang kedua merupakan contoh penggunaan map. untuk membuat map harus menyertakan header '<map>' yang berisi perintah map. penggunaan map hampir sama seperti array. dalam map terdapat key dan value dimana key sebagai kata kunci untuk mengakses nilai yang terkandung dalam suatu map. seperti contoh diatas jika memasukan katakunci 'statistika' maka akan keluar nilai berupa 82. map dapat diisi dengan berbagai tipe data. 
+Kode yang kedua merupakan contoh penggunaan map. untuk membuat map harus menyertakan header '<map>' yang berisi perintah map. Penggunaan map hampir sama seperti array. Dalam map terdapat key dan value dimana key sebagai kata kunci untuk mengakses nilai yang terkandung dalam suatu map. Seperti contoh diatas jika memasukan katakunci 'statistika' maka akan keluar nilai berupa 82. Map dapat diisi dengan berbagai tipe data. 
 
 ## Kesimpulan
-tipe data merupakan klasifikasi nilai suatu variabel yang membantu operasi komputer untuk mengenali nilai data tanpa menghasilkan error. ada 3 jenis tipe data diantaranya tipe data primitif, abstrak, dan koleksi. diantara ketiga jenis tersebut tentu memiliki kelebihan dan kekurangan masing-masing. contohnya tipe data primitif yang merupakan tipe data dasar yang mudah dipahami tetapi susah  jika menangani data yang kompleks. 
-tipe data abstrak yang lebih sering digunakan untuk meangani data yang kompleks tetapi untuk membuatnya harus didefinisikan terlebih dahulu. tipe data koleksi yang dapat menyimpan data secara bersamaan tetapi akan memakan lebih banyak memori. jadi akan lebih bijak jika menggunakan tipe data sesuai dengan keperluan sehingga dapat meningkatkan efisiensi dalam melakukan pemrosesan data. 
+Tipe data merupakan klasifikasi nilai suatu variabel yang membantu operasi komputer untuk mengenali nilai data tanpa menghasilkan error. Ada 3 jenis tipe data diantaranya tipe data primitif, abstrak, dan koleksi. Diantara ketiga jenis tersebut tentu memiliki kelebihan dan kekurangan masing-masing. Contohnya tipe data primitif yang merupakan tipe data dasar yang mudah dipahami tetapi susah  jika menangani data yang kompleks. 
+Tipe data abstrak yang lebih sering digunakan untuk meangani data yang kompleks tetapi untuk membuatnya harus didefinisikan terlebih dahulu. Tipe data koleksi yang dapat menyimpan data secara bersamaan tetapi akan memakan lebih banyak memori. Jadi akan lebih bijak jika menggunakan tipe data sesuai dengan keperluan sehingga dapat meningkatkan efisiensi dalam melakukan pemrosesan data. 
 
 ## Referensi
-[1] B. Stroustrup, "C++ Programming language", 4th, Boston: Addison-Wesley, 2013,pp 171-449.
+[1] JM. Aljas, Amores, R. lincopinis, "An Overview on C++ Programming Language", Pagadian, 2023, pp. 4-7.
 [2] Jonathan, (18, Ceptember, 2023), Difference between Array and Map[Online], Avaible: https://www.geeksforgeeks.org/difference-between-array-and-map, [Accesed 20 Mei 2024]
 [3] A. Arsito, (25, January, 2021), Swift: Class vs. Struct, Avaible: https://medium.com/dipantry/swift-class-vs-struct-c0b279b1dfaf, [Accesed 20 Mei 2024] 
