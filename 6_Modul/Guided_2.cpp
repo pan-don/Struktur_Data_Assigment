@@ -41,6 +41,7 @@ class DoublyLinkedList {
         }
         delete temp;
     }
+    
     bool update(int oldData, int newData) {
         Node* current = head;
         while (current != nullptr) {

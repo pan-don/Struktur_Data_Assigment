@@ -948,4 +948,4 @@ Linked list adalah struktur data linear yang fleksibel dan dinamis. Berbeda deng
 Banyak sekali progam yang menggunakan linked list untuk  mengimplementasikannya. diantaranya ada stack, queue, fungsi undo/rendo, dan lain sebaginya. progam tersebut menggunakan linked list karena  Linked list dapat tumbuh atau menyusut sesuai kebutuhan dan tidak perlu menentukan ukuran tetap di awal seperti pada array. akan tetapi terdapat beberapa kekurangan dalam penggunaan linked list seperti  tidak dapat langsung mengakses elemen tertentu dalam linked list berdasarkan indeksnya seperti array tetapi harus iterasi melalui list untuk menemukan elemen yang diinginkan. hal ini akan memakan lebih banyak waktu serta penggunaan kode yang lebih rumit dan akan memakan memori lebih banyak. 
 
 ## Referensi
-[1] I. Holm, Narrator, and J. Fullerton-Smith, Producer, How to Build a Human [DVD]. London: BBC; 2002.
+[1] Dalal, Ankit, and andAnkur Atri, "An Introduction to Linked List", International Journal of Research (IJR), vol.1, no.10, hal.1281-1285, November 2014.
